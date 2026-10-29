@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Panadería Delicia</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header class="header">
         <a href="index.html" class="logo">Mi sitio</a>
 
-        <button class="hamburguesa" id="menu-btn">
+        <button class="hamburguesa" id="menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
 
-        <nav class="nav" id="menu">
+        <nav class="menu" id="menu">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Sobre nosotros</a></li>
@@ -26,7 +26,8 @@
         </nav>
     </header>
 
-    <main>
+    <main class="contenedor">
+
         <section class="portada">
             <h1>Bienvenidos a Panadería Delicia</h1>
             <p>Disfruta del auténtico sabor artesanal y el aroma del pan recién horneado todos los días.</p>
@@ -34,6 +35,26 @@
 
         <section class="servicios">
             <h2>Nuestra Especialidad</h2>
+        <div class="cards" id="cards">
+
+            <article class="tarjeta">
+                <img src="img/Panaderia1.jpg" alt="Pan recién horneado">
+                <h3>Panadería</h3>
+                <p>Ofrecemos una amplia variedad de panes frescos.</p>
+                <a href="servicios.html" class="boton">Ver más</a>
+
+            </article>
+            
+            
+            <article class="tarjeta">
+                <img src="img/Panaderia2.jpg" alt="Pan recién horneado">
+                <h3>Panadería</h3>
+                <p>Ofrecemos una amplia variedad de panes frescos y deliciosos.</p>
+                <a href="servicios.html" class="boton">Ver más</a>
+
+            </article>
+
+        </div>
             <p>Elaboramos cada uno de nuestros productos con ingredientes de la más alta calidad para consentir a tu paladar.</p>
             <ul>
                 <li>Pan fresco del día</li>
@@ -46,7 +67,30 @@
             <h2>Visítanos</h2>
             <p>Te invitamos a conocer nuestra sucursal principal y descubrir todas las delicias que tenemos preparadas para ti, tu familia y tus eventos especiales.</p>
         </section>
-    </main>
+
+        <section class="Preguntas">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="acordion">
+                <div class="item">
+                    <button class="titulo">¿Pregunta 1?</button>
+                    <div class="contenido"><p>Respuesta a la pregunta 1.</p></div>
+                </div>
+
+                <div class="item">
+                    <button class="titulo">¿Pregunta 2?</button>
+                    <div class="contenido"><p>Respuesta a la pregunta 2.</p></div>
+
+                <div class="item">
+                    <button class="titulo">¿Pregunta 3?</button>
+                    <div class="contenido"><p>Respuesta a la pregunta 3.</p></div>
+                
+            </div>
+
+        </section>
+
+
+    </main>     
+
 
     <footer>
         <div>
