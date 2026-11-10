@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,14 +10,13 @@
 <body>
 
 <header class="header">
-    <a href="index.html" class="logo">Mi sitio</a>
+    <a href="index.html" class="logo">Panadería Delicia</a>
     
-    <button class=" hamburguesa" id="btnMenu">
+    <button class="hamburguesa" id="btnMenu" aria-label="Abrir menú">
         <span></span>
         <span></span>
         <span></span>
     </button>
-
 
     <nav class="menu" id="menu">
         <ul>
@@ -28,84 +28,120 @@
     </nav>
 </header>
 
-    <main class="contenedor">
+<main class="contenedor">
 
-        <section class="portada">
-            <h1>Bienvenidos a Panadería Delicia</h1>
-            <p>Disfruta del auténtico sabor artesanal y el aroma del pan recién horneado todos los días.</p>
-        </section>
+    <section class="portada">
+        <h1>Bienvenidos a Panadería Delicia</h1>
+        <p>Disfruta del auténtico sabor artesanal y el aroma del pan recién horneado todos los días.</p>
+    </section>
 
-        <section class="servicios">
-            <h2>Nuestra Especialidad</h2>
+    <section class="servicios">
+        <h2>Nuestra Especialidad</h2>
+        <p>Elaboramos cada uno de nuestros productos con ingredientes de la más alta calidad para consentir a tu paladar.</p>
+        
         <div class="cards" id="cards">
-
             <article class="tarjeta">
                 <img src="img/Panaderia1.jpg" alt="Pan recién horneado">
-                <h3>Panadería</h3>
-                <p>Ofrecemos una amplia variedad de panes frescos.</p>
+                <h3>Pan rústico</h3>
+                <p>Ofrecemos una amplia variedad de panes frescos y tradicionales.</p>
                 <a href="servicios.html" class="boton">Ver más</a>
-
             </article>
-            
             
             <article class="tarjeta">
-                <img src="img/Panaderia2.jpg" alt="Pan recién horneado">
-                <h3>Panadería</h3>
-                <p>Ofrecemos una amplia variedad de panes frescos y deliciosos.</p>
+                <img src="img/Panaderia2.jpg" alt="Pan dulce">
+                <h3>Pan dulce</h3>
+                <p>Deliciosas piezas de pan dulce horneadas cada mañana.</p>
                 <a href="servicios.html" class="boton">Ver más</a>
-
             </article>
 
+            <article class="tarjeta">
+                <img src="img/Panaderia1.jpg" alt="Baguette crujiente">
+                <h3>Baguette</h3>
+                <p>Crujientes por fuera y suaves por dentro, ideales para acompañar tus comidas.</p>
+                <a href="servicios.html" class="boton">Ver más</a>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img/Panaderia2.jpg" alt="Repostería fina">
+                <h3>Repostería</h3>
+                <p>Variedad de postres y pasteles finos para cualquier ocasión.</p>
+                <a href="servicios.html" class="boton">Ver más</a>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img/Panaderia1.jpg" alt="Galletas artesanales">
+                <h3>Galletas</h3>
+                <p>Galletas artesanales elaboradas con mantequilla de primera.</p>
+                <a href="servicios.html" class="boton">Ver más</a>
+            </article>
+
+            <article class="tarjeta">
+                <img src="img/Panaderia2.jpg" alt="Empanadas caseras">
+                <h3>Empanadas</h3>
+                <p>Rellenas de ingredientes frescos y de la mejor calidad.</p>
+                <a href="servicios.html" class="boton">Ver más</a>
+            </article>
         </div>
-            <p>Elaboramos cada uno de nuestros productos con ingredientes de la más alta calidad para consentir a tu paladar.</p>
-            <ul>
-                <li>Pan fresco del día</li>
-                <li>Repostería tradicional y moderna</li>
-                <li>Atención cálida y familiar</li>
-            </ul>
-        </section>
 
-        <section>
-            <h2>Visítanos</h2>
-            <p>Te invitamos a conocer nuestra sucursal principal y descubrir todas las delicias que tenemos preparadas para ti, tu familia y tus eventos especiales.</p>
-        </section>
+        <ul>
+            <li>Pan fresco del día</li>
+            <li>Repostería tradicional y moderna</li>
+            <li>Atención cálida y familiar</li>
+        </ul>
+    </section>
 
-        <section class="Preguntas">
-            <h2>Preguntas Frecuentes</h2>
-            <div class="acordion">
-                <div class="item">
-                    <button class="titulo">¿Pregunta 1?</button>
-                    <div class="contenido"><p>Respuesta a la pregunta 1.</p></div>
+    <section>
+        <h2>Visítanos</h2>
+        <p>Te invitamos a conocer nuestra sucursal principal y descubrir todas las delicias que tenemos preparadas para ti, tu familia y tus eventos especiales.</p>
+    </section>
+
+    <section class="Preguntas">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="acordion">
+            <div class="item">
+                <button class="titulo">¿Cuál es el horario de atención?</button>
+                <div class="contenido">
+                    <p>Atendemos de lunes a domingo de 6:00 a.m. a 8:00 p.m.</p>
                 </div>
-
-                <div class="item">
-                    <button class="titulo">¿Pregunta 2?</button>
-                    <div class="contenido"><p>Respuesta a la pregunta 2.</p></div>
-
-                <div class="item">
-                    <button class="titulo">¿Pregunta 3?</button>
-                    <div class="contenido"><p>Respuesta a la pregunta 3.</p></div>
-                
             </div>
 
-        </section>
+            <div class="item">
+                <button class="titulo">¿Hacen entregas a domicilio?</button>
+                <div class="contenido">
+                    <p>Sí, realizamos envíos a través de aplicaciones de entrega locales y pedidos directos.</p>
+                </div>
+            </div>
 
+            <div class="item">
+                <button class="titulo">¿Se pueden encargar pasteles personalizados?</button>
+                <div class="contenido">
+                    <p>Claro que sí, aceptamos pedidos especiales con al menos 48 horas de anticipación.</p>
+                </div>
+            </div>
 
-    </main>     
-
-
-    <footer>
-        <div>
-            <p><strong>Panadería Delicia</strong></p>
-            <p>Teléfono: 123-456-7890. Correo: info@misito.com</p>
+            <div class="item">
+                <button class="titulo">¿Tienen opciones libres de gluten?</button>
+                <div class="contenido">
+                    <p>Contamos con opciones selectas para ciertos regímenes alimenticios especiales bajo pedido.</p>
+                </div>
+            </div>
         </div>
-        <ul class="redes">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-        </ul>
-    </footer>
+    </section>
 
-    <script src="js/main.js" defer></script>
+</main> 
+
+<footer>
+    <div>
+        <p><strong>Panadería Delicia</strong></p>
+        <p>Teléfono: 123-456-7890. Correo: info@misito.com</p>
+    </div>
+    <ul class="redes">
+        <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+    </ul>
+</footer>
+
+<script src="js/main.js" defer></script>
 </body>
 </html>
